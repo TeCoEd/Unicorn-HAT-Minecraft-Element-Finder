@@ -3,8 +3,7 @@
 import unicornhat as UH
 import time
 import sys
-sys.path.append("./mcpi/api/python/mcpi")
-import minecraft
+from mcpi import minecraft
 mc = minecraft.Minecraft.create()
 
 UH.brightness(0.10)
